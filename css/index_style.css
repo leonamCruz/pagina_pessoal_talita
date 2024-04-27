@@ -23,6 +23,25 @@ img{
     border-radius: 250px;
 }
 
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 100px #ff2700, 0 0 60px #ff2700, 0 0 70px #ff2700;
+  }
+  50% {
+    box-shadow: 0 0 100px #ff2700, 0 0 60px #ff2700, 0 0 70px #ff2700, 0 0 150px #ff2700;
+  }
+  100% {
+    box-shadow: 0 0 100px #ff2700, 0 0 60px #ff2700, 0 0 70px #ff2700;
+  }
+}
+
+img {
+  background: #ff2700;
+  border-radius: 250px;
+  animation: pulse 0.2s infinite; 
+}
+
+
 h1 {
     font-family: 'Merienda One', cursive;
     color: #fff;
