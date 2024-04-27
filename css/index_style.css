@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 body {
-    background: linear-gradient(91deg, #820085, #b9005b, #900067);
+    background: #212121;
     background-size: 600% 600%;
 
     animation: animation 10s ease infinite;
@@ -17,6 +17,12 @@ body {
     height: 100vh;
 }
 
+img{
+    background: #ff2700;
+    box-shadow: 0 0 100px #ff2700, 0 0 60px #ff2700, 0 0 70px #ff2700;
+    border-radius: 250px;
+}
+
 h1 {
     font-family: 'Merienda One', cursive;
     color: #fff;
@@ -29,19 +35,26 @@ h2 {
     text-shadow: 6px 6px 9px rgba(0, 0, 0, 0.9);
 }
 a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 40px;
     color: #fff;
     text-decoration: none;
     margin-right: 20px; 
     transition: transform 0.3s ease;
     width: 285px;
+    height: 30px;
+    text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 a:hover {
     transform: scale(1.2);
+    background: #0aa8e6;
+    color: #fff;
+    box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
 }
 
 #zap {
@@ -55,6 +68,30 @@ a:hover {
 #insta {
     background-color: #e4405f;
 }
+#mail{
+    background-color: #9400ce;
+}
+
+#zap:hover {
+    background: #25d366; /* Cor do fundo ao passar o mouse */
+    box-shadow: 0 0 10px #25d366, 0 0 40px #25d366, 0 0 70px #25d366; /* Efeito de sombra */
+}
+
+#yt:hover {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000;
+}
+
+#insta:hover {
+    background: #e4405f;
+    box-shadow: 0 0 10px #e4405f, 0 0 40px #e4405f, 0 0 70px #e4405f;
+}
+
+#mail:hover {
+    background: #9400ce;
+    box-shadow: 0 0 10px #9400ce, 0 0 40px #9400ce, 0 0 70px #9400ce;
+}
+
 
 @keyframes animation {
     0%{background-position:0% 47%}
