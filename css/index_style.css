@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+body {
+    background: linear-gradient(91deg, #820085, #b9005b, #900067);
+    background-size: 600% 600%;
+
+    animation: animation 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    color: #fff;
+    text-shadow: 6px 6px 9px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-shadow: 6px 6px 9px rgba(0, 0, 0, 0.9);
+}
+a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px; 
+    transition: transform 0.3s ease;
+    width: 285px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+#zap {
+    background-color: #25d366;
+}
+
+#yt {
+    background-color: #ff0000;
+}
+
+#insta {
+    background-color: #e4405f;
+}
+
+@keyframes animation {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+
